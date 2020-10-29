@@ -1,0 +1,125 @@
+body
+{
+	text-align: center !important;
+}
+
+.bg-custom
+{
+	background-color: #335fac;
+}
+
+.nav-item, .nav-link, .nav-link:hover, .nav-item:hover
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+.navbar-brand, .navbar-brand:hover
+{
+	font-size: 150% !important;
+	margin-left: 20px;
+}
+
+
+h1
+{
+	margin-top: 20px !important;
+}
+
+.btn-standard
+{
+	background-color: #335fac !important;
+	color: white !important;
+}
+
+dl
+{
+	font-size: 27px;
+}
+
+.you
+{
+	font-weight: bold;
+}
+
+.col-lg-6
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.divbottom
+{
+	position: fixed !important;
+	bottom: 50px !important;
+	right: 80px !important;
+}
+
+.divbottom>a:hover, .divtop>a:hover
+{
+	text-decoration: none !important;
+}
+
+@media (prefers-color-scheme: dark)
+{
+	.bg-custom
+	{
+		background-color: rgb(22, 48, 97) !important;
+	}
+
+	body
+	{
+		background: black !important;
+		color: white !important;
+	}
+
+	input, textarea, table, tr, td, .card, select
+	{
+		background-color: #3e3e3e !important;
+		color: white !important;
+	}
+
+	th
+	{
+		background-color: #666666 !important;
+		color: white !important;
+	}
+
+	label
+	{
+		color: white !important;
+	}
+
+	.table-success>td, .btn-success
+	{
+		background-color: #356335 !important;
+	}
+
+	.btn-danger
+	{
+		background-color: #681c1c !important;
+	}
+
+	.btn-warning
+	{
+		background-color: #8b2d15 !important;
+	}
+}
+
+@media(max-width: 1200px)
+{
+	.divbottom
+	{
+		bottom: 20px !important;
+		right: -10px !important;
+	}
+	.divbottom>.col-lg
+	{
+		margin-top: 12px !important;
+	}
+	.divbottom>.col
+	{
+		margin-right: 56px !important;
+	}
+}
